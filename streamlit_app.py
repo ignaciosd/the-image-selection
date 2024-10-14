@@ -7,7 +7,7 @@ st.write(
 
 # Define the images and their corresponding URLs
 image_urls = [
-    "https://via.placeholder.com/150/0000FF/FFFFFF?text=Image+1",
+    "https://lh4.googleusercontent.com/0syh03zKCeKxO_PcohEXJ-RH1bwlClwzKhRfhuW2Rj_iPiAcQ7DZGL-mKqpyYJ0bmsxvyuETOOfgvHaNls_3lU4tjhlQ0sdVFKA5MlTdYQ4qHVIiiw_DgoFkW1Rw87wt_A=w1280",
     "https://via.placeholder.com/150/FF0000/FFFFFF?text=Image+2",
     "https://via.placeholder.com/150/00FF00/FFFFFF?text=Image+3",
     "https://via.placeholder.com/150/FFFF00/FFFFFF?text=Image+4"
