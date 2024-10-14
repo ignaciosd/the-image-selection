@@ -14,7 +14,7 @@ image_urls = [
 ]
 
 websites = [
-    "https://www.google.com",
+    "https://mlbvisuals-caleb.streamlit.app/",
     "https://www.bing.com",
     "https://www.yahoo.com",
     "https://www.duckduckgo.com"
