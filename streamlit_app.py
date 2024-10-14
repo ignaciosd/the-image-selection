@@ -8,16 +8,16 @@ st.write(
 # Define the images and their corresponding URLs
 image_urls = [
     "https://lh4.googleusercontent.com/0syh03zKCeKxO_PcohEXJ-RH1bwlClwzKhRfhuW2Rj_iPiAcQ7DZGL-mKqpyYJ0bmsxvyuETOOfgvHaNls_3lU4tjhlQ0sdVFKA5MlTdYQ4qHVIiiw_DgoFkW1Rw87wt_A=w1280",
-    "https://www.dropbox.com/scl/fi/0c0zv5hcbbyael21ykq6z/Caleb_Hoffman.png?rlkey=qe05olkypw0v8255u64jvh4b9&dl=0",
-    "https://lh3.googleusercontent.com/Fw7g5P_uTeqJ3XS8xp0TMLjCDzY2n3Y31mbxZGKKzycC_pVreaOs6PArTEpBe-uO29P7jK43tXPz0771SogIr84=w1280",
-    "https://drive.google.com/file/d/1MBk_bXXK1V6GL0shUIs18QT3YhmCRkB1/view?usp=sharing"
+    "https://lh5.googleusercontent.com/nZV6N0jIX-OVoJl1ozXzBn974LBcMzL0_PZ2_gy-cCy9zO2bbH2Jj9SkTfUIQnbPDg9b-k-d9mfj72h198TwTH8D-NywLLt3TNqIBhNrpRmYexARG9mVqZSLU2GP1-r8tw=w1280",
+    "https://lh6.googleusercontent.com/W5z6V2i79dQZRC5S2PT6Z97g8cRvcEY7X_asIhGi_yZhQBWvw37N_XsSYZ65H-2JIIoMqsa0d_bgfUZPBcczd4jwDq2gZue50xpOYihpFInwGt3yfI2KVX8nxmbwb4seXg=w1280",
+    "https://lh5.googleusercontent.com/psOEqfIuXS3flne5DwbRlohnvrTp-NNtoP6B3gHbhBOBTmPJSlG4h-erF7cJ7hnPlt_zBGjCgG0J5GXJ0UPjZMAZ0LN2urMTBupqZQqJHBN7NERRd36ePpV1yWolB8FTBw=w1280"
 ]
 
 websites = [
+    "https://www.ignaciosd.com",
     "https://mlbvisuals-caleb.streamlit.app/",
-    "https://www.bing.com",
-    "https://www.yahoo.com",
-    "https://www.duckduckgo.com"
+    "https://blank-app-e1rq5dmukpj.streamlit.app/",
+    "https://blank-app-t0fggotm63q.streamlit.app/"
 ]
 
 st.title("Click an Image to Open a Website")
