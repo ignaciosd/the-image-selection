@@ -9,8 +9,8 @@ st.write(
 image_urls = [
     "https://lh4.googleusercontent.com/0syh03zKCeKxO_PcohEXJ-RH1bwlClwzKhRfhuW2Rj_iPiAcQ7DZGL-mKqpyYJ0bmsxvyuETOOfgvHaNls_3lU4tjhlQ0sdVFKA5MlTdYQ4qHVIiiw_DgoFkW1Rw87wt_A=w1280",
     "https://www.dropbox.com/scl/fi/0c0zv5hcbbyael21ykq6z/Caleb_Hoffman.png?rlkey=qe05olkypw0v8255u64jvh4b9&dl=0",
-    "https://pasteboard.co/UYGsaB7lbXKs.jpg",
-    "https://postimg.cc/hX2jVLGt"
+    "https://lh3.googleusercontent.com/Fw7g5P_uTeqJ3XS8xp0TMLjCDzY2n3Y31mbxZGKKzycC_pVreaOs6PArTEpBe-uO29P7jK43tXPz0771SogIr84=w1280",
+    "https://drive.google.com/file/d/1MBk_bXXK1V6GL0shUIs18QT3YhmCRkB1/view?usp=sharing"
 ]
 
 websites = [
