@@ -23,7 +23,7 @@ websites = [
 names_list = [
     "One",
     "Two",
-    "Three",
+    "ThreeThreeThreeThreeThreeThreeThreeThreeThreeThreeThreeThreeThreeThreeThreeThreeThreeThreeThree",
     "Four"
 ]
 
@@ -38,19 +38,18 @@ def clickable_image(image_url, link, name_person):
     st.markdown(f'<p>This is a <strong>bold</strong> text.</p>', unsafe_allow_html=True)
 
 # Display images with clickable links
-clickable_image(image_urls[0], websites[0], names_list[0])
-clickable_image(image_urls[1], websites[1], names_list[1])
-clickable_image(image_urls[2], websites[2], names_list[2])
-clickable_image(image_urls[3], websites[3], names_list[3])
+#clickable_image(image_urls[0], websites[0], names_list[0])
+#clickable_image(image_urls[1], websites[1], names_list[1])
+#clickable_image(image_urls[2], websites[2], names_list[2])
+#clickable_image(image_urls[3], websites[3], names_list[3])
 
+with col1:
+    clickable_image(image_urls[0], websites[0], names_list[0])
+    clickable_image(image_urls[1], websites[1], names_list[1])
 
-#with col1:
-#    clickable_image(image_urls[0], websites[0], names_list[0])
-#    clickable_image(image_urls[1], websites[1], names_list[1])
-#
-#with col2:
-#    clickable_image(image_urls[2], websites[2], names_list[2])
-#    clickable_image(image_urls[3], websites[3], names_list[3])
+with col2:
+    clickable_image(image_urls[2], websites[2], names_list[2])
+    clickable_image(image_urls[3], websites[3], names_list[3])
 
 
 
