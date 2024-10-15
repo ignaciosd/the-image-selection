@@ -20,24 +20,31 @@ websites = [
     "https://blank-app-t0fggotm63q.streamlit.app/"
 ]
 
+names_list = [
+    "One",
+    "Two",
+    "Three",
+    "Four"
+]
+
 st.title("Click an Image to Open a Website")
 
 # Layout the images in two rows
 col1, col2 = st.columns(2)
 
 # Function to display clickable images
-def clickable_image(image_url, link):
-    st.markdown(f'<a href="{link}" target="_blank"><img src="{image_url}" style="width: 100%; height: auto;">Something</a>', unsafe_allow_html=True)
+def clickable_image(image_url, link, name_person):
+    st.markdown(f'<a href="{link}" target="_blank"><img src="{image_url}" style="width: 100%; height: auto;">{name_person}</a>', unsafe_allow_html=True)
     st.markdown(f'<p>This is a <strong>bold</strong> text.</p>', unsafe_allow_html=True)
 
 # Display images with clickable links
 with col1:
-    clickable_image(image_urls[0], websites[0])
-    clickable_image(image_urls[1], websites[1])
+    clickable_image(image_urls[0], websites[0], names_list[0])
+    clickable_image(image_urls[1], websites[1], names_list[1])
 
 with col2:
-    clickable_image(image_urls[2], websites[2])
-    clickable_image(image_urls[3], websites[3])
+    clickable_image(image_urls[2], websites[2], names_list[2])
+    clickable_image(image_urls[3], websites[3], names_list[3])
 
 
 
