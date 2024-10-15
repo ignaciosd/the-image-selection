@@ -28,6 +28,7 @@ col1, col2 = st.columns(2)
 # Function to display clickable images
 def clickable_image(image_url, link):
     st.markdown(f'<a href="{link}" target="_blank"><img src="{image_url}" style="width: 100%; height: auto;"></a>', unsafe_allow_html=True)
+    st.markdown(f'<p>This is a <strong>bold</strong> text.</p>')
 
 # Display images with clickable links
 with col1:
