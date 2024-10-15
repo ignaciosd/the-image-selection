@@ -30,7 +30,7 @@ names_list = [
 st.title("Click an Image to Open a Website")
 
 # Layout the images in two rows
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 # Function to display clickable images
 def clickable_image(image_url, link, name_person):
@@ -51,6 +51,9 @@ with col2:
     clickable_image(image_urls[2], websites[2], names_list[2])
     clickable_image(image_urls[3], websites[3], names_list[3])
 
+with col3:
+    clickable_image(image_urls[2], websites[2], names_list[2])
+    clickable_image(image_urls[3], websites[3], names_list[3])
 
 
 
